@@ -195,7 +195,7 @@ public class BasicStringsTest {
         // When
         String actual = basicStrings.oneAtATime(string1, string2);
         // Then
-        Assert.assertEquals(expected, actual);
+        Assert.assertNotEquals(expected, actual);
     }
 
 
