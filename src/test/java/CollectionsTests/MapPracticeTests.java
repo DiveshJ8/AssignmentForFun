@@ -12,7 +12,7 @@ import java.util.TreeMap;
 
 public class MapPracticeTests {
     private MapPractice mapPractice;
-    private Map map1;
+    private Map<String, String> map1;
 
     @Before
     public void setup(){
