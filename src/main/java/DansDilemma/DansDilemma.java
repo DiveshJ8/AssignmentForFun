@@ -37,6 +37,7 @@ public class DansDilemma {
 
 		}
 		result.remove(0d / 0d);
+		result.remove(1d / 0d);
 
 		return result.size();
 	}
@@ -59,6 +60,7 @@ public class DansDilemma {
 			}
 		}
 		result.remove(0d / 0d);
+		result.remove(1d / 0d);
 
 		return result.size();
 	}
@@ -78,9 +80,9 @@ public class DansDilemma {
 				}
 			}
 		}
-		
-		result.remove(0d / 0d);
 
+		result.remove(0d / 0d);
+		result.remove(1d / 0d);
 		return result.size();
 	}
 }
